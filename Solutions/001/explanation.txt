@@ -1,0 +1,11 @@
+PROBLEM: If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3,5,6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
+
+-> INPUT DATA: Variable sum with value of zero.
+
+-> STEP BY STEP:
+1. Initiate a structured and controlled loop ranging from 3 to a 1000. (Why start from 3? - because what must be found are multiples of 3 or 5 and 1 and 2 doesn't correspond to requirements)
+2. Subject each index associated with this loop into a simple conditional evaluation - it's module by 3 OR 5 results in zero? 
+	2.1 If it does, sum the index into the variable SUM.
+3. When loop is finally finished, show the output for user.
+
+-> OUTPUT DATA: 233168 (expected)
